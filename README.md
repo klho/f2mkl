@@ -70,7 +70,7 @@ as expected.
 
 ## Instructions
 
-1. Compile by typing `make`, with `$MKLROOT` (default: `/opt/intel/mkl`) set appropriately so that `mkl.h` can be found.
+1. Compile by typing `make`, with `$MKLINC` (default: `/usr/include/mkl`) set appropriately so that `mkl.h` can be found.
 2. `LD_PRELOAD` `libf2mkl.so` first and then the MKL libraries as above.
 3. ????
 4. Profit!
